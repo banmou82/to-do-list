@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background: #f7f8fa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.app {
+  background: white;
+  padding: 2rem;
+  border-radius: 16px;
+  width: 400px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.input-area {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 1rem;
+}
+
+input {
+  flex: 1;
+  padding: 0.6rem;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+}
+
+button {
+  padding: 0.6rem 1rem;
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.2s;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.todo-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f1f1f1;
+  margin-bottom: 0.5rem;
+  padding: 0.6rem 1rem;
+  border-radius: 8px;
+  transition: all 0.3s;
+}
+
+.todo-item.completed span {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.actions button {
+  margin-left: 0.5rem;
+  background: #eee;
+  color: #333;
+}
+
+.actions button:hover {
+  background: #ddd;
+}
