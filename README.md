@@ -1,28 +1,37 @@
-# React + Vite
+# ✅ To-Do List App
 
-To-Do List App
+A simple and elegant **To-Do List Application** built using **React**, **Vite**, and **SCSS**.  
+Easily add, edit, delete, and manage your daily tasks — all in one clean interface.
 
-A simple, lightweight to-do list web application that allows users to add, edit, complete, and remove tasks. Deployed at: https://to-do-list-two-lilac-67.vercel.app/
+🌐 **Live Demo:** [To-Do List App on Vercel](https://to-do-list-two-lilac-67.vercel.app/)
 
-Features
+---
 
-  Add new tasks with a title
+## 🚀 Features
 
-  Mark tasks as completed/incomplete
+- ✏️ Add new tasks quickly  
+- 🗑️ Delete tasks once completed  
+- ✅ Mark tasks as done/undone  
+- 💾 Persistent storage using localStorage (tasks remain after page reload)  
+- 🧭 Filter tasks by status (All / Active / Completed)  
+- 🔍 Search bar to find specific tasks easily  
+- 💅 Clean and responsive UI built with SCSS  
+- ⚡ Superfast performance with React + Vite  
 
-  Edit existing tasks
+---
 
-  Delete tasks you no longer need
+## 🛠️ Tech Stack
 
-  Filter/view all tasks, only active tasks, or only completed tasks
+- **Frontend:** React + Vite  
+- **Styling:** SCSS  
+- **State Management:** React Hooks (`useState`, `useEffect`)  
+- **Storage:** Browser localStorage  
+- **Deployment:** Vercel  
 
-   A clean, responsive UI so it works on desktop and mobile
+---
 
-Tech Stack
+## 📦 Installation & Setup
 
-   Front-end: HTML, CSS, JavaScript,, React
-
-State management: local state 
-
-Hosting/Deployment: Vercel (via the link above)
-
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/banmou82/to-do-list-app.git
